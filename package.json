@@ -1,0 +1,23 @@
+{
+  "name": "social_network",
+  "version": "1.0.0",
+  "description": "Back end for a social network using MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDecoder007/social_network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDecoder007/social_network/issues"
+  },
+  "homepage": "https://github.com/TheDecoder007/social_network#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  }
+}
