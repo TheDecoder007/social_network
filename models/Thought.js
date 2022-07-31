@@ -39,7 +39,7 @@ const ThoughtSchema = new Schema(
       required: true,
       trim: true
     },
-    thoughtText: {
+    thoughtBody: {
       type: String,
       required: true,
       trim: true,
