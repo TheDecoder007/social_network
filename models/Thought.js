@@ -51,7 +51,7 @@ const ThoughtSchema = new Schema(
       get: (createdAtVal) => dateFormat(createdAtVal),
     },
     //use ReactionSchema to validate data for a reaction
-    replies: [ReactionSchema],
+    reactions: [ReactionSchema],
   },
   {
     toJSON: {
@@ -61,7 +61,7 @@ const ThoughtSchema = new Schema(
     id: false,
   }
 );
-CommentSchema.virtual("reactionCount").get(function () {
+ThoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
 
