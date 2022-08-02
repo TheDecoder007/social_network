@@ -12,11 +12,11 @@ Back end for a social network using MongoDB
 * Use Insomnia to test routes
 
 ## Features
-* Create, update, find or delete Users
+* Create, update, find, or delete Users
 * Users can add, update, find, or delete thoughts
 * Users can add or delete reactions to thoughts
 
 ## Links: 
  GitHub Repository: https://github.com/TheDecoder007/social_network
 
- Walkthrough Video Link: 
+ Walkthrough Video Link: https://drive.google.com/file/d/1sIGQyaBKXGhoDgzUa0CmkE28xZHUK0-G/view
